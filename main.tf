@@ -11,7 +11,7 @@ resource "aws_s3_bucket" "myname" {
 
 variable "user-name" {
  description = "Enter your name"
- default = "akhil"
+ default = "joffe"
 }
 
 resource "aws_instance" "myname" {
